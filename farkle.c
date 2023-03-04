@@ -15,8 +15,6 @@ unsigned int getRandom(unsigned int limit);  // returns random integer between 0
 // index 0: total number of dice in the collection
 // index 1-6: element i is the number of dice with face value = i
 typedef int DiceGroup[7];
-// if you don't understand how typedef works, or just prefer to not use this type,
-// just declare an array of 7 integers instead -- you will not lose points for this
 
 int takeTurn();   // interact with user to roll dice and return score
 void rollDice(DiceGroup, int);     // initialize a specified number of dice
